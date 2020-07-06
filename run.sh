@@ -1,0 +1,1 @@
+mpiexec -hostfile hostfile -N 4 python examples/pytorch_imagenet_resnet.py --model resnet50 --kfac-update-freq 2000 --kfac-cov-update-freq 200 --epochs 5 --base-lr 0.0125 --lr-decay 25 35 40 45 50 --warmup-epochs 5 --damping 0.001 --train-dir=/scratch/03109/tg824074/data/tiny/imagenet/ILSVRC2012_img_train/ --val-dir=/scratch/03109/tg824074/data/tiny/imagenet/ILSVRC2012_img_val
