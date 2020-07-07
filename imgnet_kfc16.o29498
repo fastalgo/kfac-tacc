@@ -1,0 +1,125 @@
+Copying imagenet.tar to /tmp/
+Copying imagenet.tar to /tmp/
+Done copying. Extracting
+Done copying. Extracting
+Done.
+Done.
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+python: no process found
+python: no process found
+python: no process found
+python: no process found
+python: no process found
+/scratch/03109/tg824074/conda_local/envs/pytorch-test/lap_se/license/status.dat: No such file or directory
+Namespace(base_lr=0.0125, batch_size=32, batches_per_allreduce=1, checkpoint_format='checkpoint-{epoch}.pth.tar', cuda=True, damping=0.002, damping_alpha=0.5, damping_decay=[40, 80], diag_blocks=1, diag_warmup=0, distribute_layer_factors=None, epochs=90, fp16_allreduce=False, kfac_cov_update_freq=1, kfac_update_freq=0, kfac_update_freq_alpha=10, kfac_update_freq_decay=None, kl_clip=0.001, label_smoothing=0.1, log_dir='./logs', lr_decay=[30, 60, 80], model='resnet50', momentum=0.9, no_cuda=False, seed=42, single_threaded=False, stat_decay=0.95, train_dir='/tmp/ILSVRC2012i', val_batch_size=32, val_dir='/tmp/imagenet/ILSVRC2012_img_val/', verbose=1, warmup_epochs=5.0, wd=5e-05)
+Traceback (most recent call last):
+  File "examples/pytorch_imagenet_resnet.py", line 353, in <module>
+    train_sampler, train_loader, _, val_loader = get_datasets(args)
+  File "examples/pytorch_imagenet_resnet.py", line 170, in get_datasets
+    std=[0.229, 0.224, 0.225])]))
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 209, in __init__
+    target_transform=target_transform)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 83, in __init__
+    classes, class_to_idx = self._find_classes(root)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 116, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ILSVRC2012i'
+Traceback (most recent call last):
+  File "examples/pytorch_imagenet_resnet.py", line 353, in <module>
+    train_sampler, train_loader, _, val_loader = get_datasets(args)
+  File "examples/pytorch_imagenet_resnet.py", line 170, in get_datasets
+    std=[0.229, 0.224, 0.225])]))
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 209, in __init__
+    target_transform=target_transform)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 83, in __init__
+    classes, class_to_idx = self._find_classes(root)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 116, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ILSVRC2012i'
+Traceback (most recent call last):
+  File "examples/pytorch_imagenet_resnet.py", line 353, in <module>
+    train_sampler, train_loader, _, val_loader = get_datasets(args)
+  File "examples/pytorch_imagenet_resnet.py", line 170, in get_datasets
+    std=[0.229, 0.224, 0.225])]))
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 209, in __init__
+    target_transform=target_transform)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 83, in __init__
+    classes, class_to_idx = self._find_classes(root)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 116, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ILSVRC2012i'
+Traceback (most recent call last):
+  File "examples/pytorch_imagenet_resnet.py", line 353, in <module>
+    train_sampler, train_loader, _, val_loader = get_datasets(args)
+  File "examples/pytorch_imagenet_resnet.py", line 170, in get_datasets
+    std=[0.229, 0.224, 0.225])]))
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 209, in __init__
+    target_transform=target_transform)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 83, in __init__
+    classes, class_to_idx = self._find_classes(root)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 116, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ILSVRC2012i'
+Traceback (most recent call last):
+  File "examples/pytorch_imagenet_resnet.py", line 353, in <module>
+    train_sampler, train_loader, _, val_loader = get_datasets(args)
+  File "examples/pytorch_imagenet_resnet.py", line 170, in get_datasets
+    std=[0.229, 0.224, 0.225])]))
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 209, in __init__
+    target_transform=target_transform)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 83, in __init__
+    classes, class_to_idx = self._find_classes(root)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 116, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ILSVRC2012i'
+Traceback (most recent call last):
+  File "examples/pytorch_imagenet_resnet.py", line 353, in <module>
+    train_sampler, train_loader, _, val_loader = get_datasets(args)
+  File "examples/pytorch_imagenet_resnet.py", line 170, in get_datasets
+    std=[0.229, 0.224, 0.225])]))
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 209, in __init__
+    target_transform=target_transform)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 83, in __init__
+    classes, class_to_idx = self._find_classes(root)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 116, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ILSVRC2012i'
+Traceback (most recent call last):
+  File "examples/pytorch_imagenet_resnet.py", line 353, in <module>
+    train_sampler, train_loader, _, val_loader = get_datasets(args)
+  File "examples/pytorch_imagenet_resnet.py", line 170, in get_datasets
+    std=[0.229, 0.224, 0.225])]))
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 209, in __init__
+    target_transform=target_transform)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 83, in __init__
+    classes, class_to_idx = self._find_classes(root)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 116, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ILSVRC2012i'
+Traceback (most recent call last):
+  File "examples/pytorch_imagenet_resnet.py", line 353, in <module>
+    train_sampler, train_loader, _, val_loader = get_datasets(args)
+  File "examples/pytorch_imagenet_resnet.py", line 170, in get_datasets
+    std=[0.229, 0.224, 0.225])]))
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 209, in __init__
+    target_transform=target_transform)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 83, in __init__
+    classes, class_to_idx = self._find_classes(root)
+  File "/scratch/03109/tg824074/conda_local/envs/pytorch-test/lib/python3.6/site-packages/torchvision/datasets/folder.py", line 116, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ILSVRC2012i'
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[8238,1],4]
+  Exit code:    1
+--------------------------------------------------------------------------
+/tmp/slurmd/job29498/slurm_script: line 28: mg_train/: No such file or directory

@@ -1,0 +1,4 @@
+Copying imagenet.tar to /tmp/
+Copying imagenet.tar to /tmp/
+mpiexec: Forwarding signal 18 to job
+slurmstepd: error: *** JOB 29497 ON c001-005 CANCELLED AT 2020-07-06T21:45:11 ***
